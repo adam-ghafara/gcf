@@ -17,7 +17,7 @@ func HelloHTTP(w http.ResponseWriter, r *http.Request) {
 	w.Header().Set("Access-Control-Allow-Origin", "*")
 
 	// Set header Access-Control-Allow-Methods untuk mengizinkan metode HTTP yang diizinkan.
-	w.Header().Set("Access-Control-Allow-Methods", "GET, POST, PUT, DELETE")
+	w.Header().Set("Access-Control-Allow-Methods", "GET")
 
 	// Set header Access-Control-Allow-Headers untuk mengizinkan header yang diizinkan dalam permintaan.
 	w.Header().Set("Access-Control-Allow-Headers", "Content-Type, Authorization")
